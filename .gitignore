@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#web ignores
+node_modules/
+dist/
+*.json
+
+#Mac ignores
+.DS_Store
+
+#IDE ignores
+.vscode
+
+#IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+#Test Reports
+/tmp
+tmp/
+errorShots/
+screenshots/
+*.tmp
+tmp/*
+package-lock.json
